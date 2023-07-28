@@ -1,0 +1,6 @@
+{
+  "appId": "com.react.app",
+  "appName": "react",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
