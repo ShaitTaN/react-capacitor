@@ -8,6 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
+    console.log("effect");
     CapApp.addListener("appUrlOpen", (event) => {
       console.log(event);
     });
